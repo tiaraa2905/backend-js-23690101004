@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f4eaff; /* ungu pastel lembut */
+  color: #3d2a4d; /* ungu gelap elegan */
+  transition: background-color 0.4s, color 0.4s;
+}
+
+/* DARK MODE */
+body.dark {
+  background-color: #2b1f36;
+  color: #fcefff;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  padding: 20px;
+  background: #d7c1fc;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+nav ul {
+  list-style: none;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #3d2a4d;
+  font-weight: 600;
+}
+
+nav ul li a:hover {
+  color: #7a4bb7;
+}
+
+/* FOTO PROFIL */
+.foto-profil {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #d9c8ff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+}
+
+/* SECTION */
+main {
+  padding: 30px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #5e3a87;
+}
+
+/* INFO BOX */
+.info-box {
+  background: #efe4ff;
+  padding: 15px;
+  border-radius: 12px;
+  margin-top: 15px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+}
+
+.info-box h3 {
+  margin-bottom: 10px;
+}
+
+/* KEAHLIAN */
+.keahlian-container {
+  display: flex;
+  gap: 15px;
+}
+
+.card {
+  background: #e8d7ff;
+  padding: 15px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #3d2a4d;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  background: #d7c1fc;
+  padding: 20px;
+  margin-top: 30px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+/* TOMBOL INTERAKTIF */
+button {
+  margin-top: 20px;
+  padding: 10px 15px;
+  border: none;
+  background: #b08cfb;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #9c72f8;
+}
